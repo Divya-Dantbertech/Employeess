@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App.h1 { 
+  background-color: blue;
+
+}
+.footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Space inside the footer */
+  text-align: center; /* Centered text */
+  position: fixed; /* Fixed position at the bottom */
+  width: 100%; /* Full width */
+  bottom: 0; /* Align to the bottom */
+}
+
+.footer h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Font size for the heading */
+}
+
+.footer p {
+  margin: 5px 0 0; /* Margin for the paragraph */
+  font-size: 16px; /* Font size for the paragraph */
+}
+
+ 
+

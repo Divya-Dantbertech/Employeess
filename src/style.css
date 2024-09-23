@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    height: 90px;
+    
+}
